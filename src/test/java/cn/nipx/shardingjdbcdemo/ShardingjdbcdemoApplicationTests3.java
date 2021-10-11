@@ -28,7 +28,7 @@ class ShardingjdbcdemoApplicationTests3 {
     @Test
     void findUser() {
         QueryWrapper<User> wrapper = new QueryWrapper<>();
-        wrapper.eq("user_id", "654070410186326017");
+        wrapper.eq("user_id", "654448836650991617");
         User user = userMapper.selectOne(wrapper);
         System.out.println(user);
     }
